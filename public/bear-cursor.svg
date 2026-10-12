@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 100 100" fill="none">
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
+  </filter>
+  <g filter="url(#shadow)">
+    <!-- Body -->
+    <path d="M38 68 C34 76, 36 88, 43 88 C46 88, 48 84, 50 84 C52 84, 54 88, 57 88 C64 88, 66 76, 62 68 Z" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Arms -->
+    <path d="M36 71 C31 72, 31 76, 35 77" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+    <path d="M64 71 C69 72, 69 76, 65 77" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+    <!-- Left Ear -->
+    <path d="M26 27 C20 22, 23 13, 31 15 C36 16, 37 23, 34 27" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Right Ear -->
+    <path d="M74 27 C80 22, 77 13, 69 15 C64 16, 63 23, 66 27" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="50" cy="46" rx="34" ry="31" fill="#FFFFFF" stroke="#000000" stroke-width="4.5"/>
+    <!-- Blush -->
+    <ellipse cx="30" cy="58" rx="6.5" ry="4" fill="#FFAEC9" opacity="0.9"/>
+    <ellipse cx="70" cy="58" rx="6.5" ry="4" fill="#FFAEC9" opacity="0.9"/>
+    <!-- Left Eyebrow -->
+    <path d="M28 35 Q35 32 44 41" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- Right Eyebrow -->
+    <path d="M72 35 Q65 32 56 41" fill="none" stroke="#000000" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- Forehead Tick -->
+    <path d="M49 38 L51 43" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+    <!-- Left Eye -->
+    <ellipse cx="36" cy="47" rx="7" ry="5.5" fill="#000000"/>
+    <ellipse cx="36" cy="45" rx="5.5" ry="2" fill="#FFFFFF"/>
+    <line x1="28" y1="44" x2="44" y2="44" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    <!-- Right Eye -->
+    <ellipse cx="64" cy="47" rx="7" ry="5.5" fill="#000000"/>
+    <ellipse cx="64" cy="45" rx="5.5" ry="2" fill="#FFFFFF"/>
+    <line x1="56" y1="44" x2="72" y2="44" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    <!-- Nose dot -->
+    <circle cx="50" cy="55.5" r="2" fill="#000000"/>
+    <!-- Mouth -->
+    <line x1="46" y1="61" x2="54" y2="61" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
